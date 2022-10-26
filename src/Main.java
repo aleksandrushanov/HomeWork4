@@ -22,7 +22,7 @@ public class Main {
         }
         System.out.println("Task3");
 
-        int carCapacity = 130;
+        int carCapacity = 50;
         if (carCapacity <=60){
             System.out.println("Есть сидячие места");
         }
@@ -32,8 +32,47 @@ public class Main {
         else {
             System.out.println("Мест нету");
         }
+        System.out.println("Домашнее задание 2");
 
+        System.out.println("Task 1 ");
 
+        int ageStudents =18;
+        if (ageStudents >=2 && ageStudents <=6){
+            System.out.println("Если возраст человека равен " + ageStudents + " то ему нужно ходить в детский сад");
+        }
+        else if (ageStudents >=7 && ageStudents <18){
+            System.out.println("Если возраст человека равен " + ageStudents + " то ему нужно ходить в школу");
+        }
+        else if (ageStudents >=18 && ageStudents <24){
+            System.out.println("Если возраст человека равен " + ageStudents + " то ему нужно ходить в университет");
+        }
+        else {
+            System.out.println("Если возраст человека равен " + ageStudents + " то ему нужно ходить на работу");
+        }
 
+        System.out.println("Task 2 ");
+
+        int ageChild = 25;
+        if (ageChild <5){
+            System.out.println("Ребенку нельзя кататься на атракционе");
+        } else if (ageChild>=5 && ageChild <14) {
+            System.out.println("Ребенок может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя.");
+        }
+        else {
+            System.out.println("Челоек может кататься без сопровождения взрослого");
+        }
+        System.out.println("Task 3 ");
+        int one = 9;
+        int two = 2;
+        int free = 3;
+
+        if (one > two && one > free){
+            System.out.println("Большое число " + one);
+        } else if (two>one && two > free) {
+            System.out.println("Большое число " + two);
+        }
+        else {
+            System.out.println("Большое число " + free);
+        }
     }
 }
